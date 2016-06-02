@@ -7,7 +7,7 @@ var user;
 
 socket.connect({
   port: 2000,
-  host: '127.0.0.1',
+  host: '127.0.0.1'
 }, function() {
   socket.write('Hello from client');
   socket.on('data', function(data) {
